@@ -1,0 +1,79 @@
+/*Limpieza de los formatos por defecto del navegador*/
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Colores especificos para las etiquetas*/
+a, label{
+    color: #3d97d2;
+}
+
+h3, button, code{
+    color: #231f20;
+}
+
+/*Fuente y color de esta para el documento*/
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #555658;
+}
+
+/*Alineación del logo en el contenedor*/
+.logo{
+    text-align: center;
+}
+
+/*Altura especifica de la imagen en el encabezado*/
+.logo img{
+    height: 130px;
+}
+
+/*Diseño por defecto de las etiquetas a en anidadas en li*/
+li a{
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+/*Aplicación de colores para todos los div con la clase accordion-body*/
+div.accordion-body{
+    background-color: #3d97d2;
+    color: #f8fafa;
+}
+
+/*Diseño de mi contenedor*/
+.contenedor{
+    padding-left: 5px;
+}
+
+/*Diseño de la lista en mi contenedor*/
+.contenedor ul{
+    padding-left: 5px;
+}
+
+/*Ajuste de los li en el contenedor*/
+.contenedor ul li{
+    border-bottom: 2px black solid;
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+/*Alineamiento de ul en la tercera columna*/
+.contenerdor-derecha ul{
+    padding: 0 0 25px 0;
+    border-bottom: 5px black solid;
+}
+
+.contenerdor-derecha ul li{
+    list-style: inside;
+    border-bottom: none;
+    padding: 0;
+}   
+
+/*Margen entre los elementos del grid*/
+.grid-padding{
+    margin-bottom: 10px;
+}
